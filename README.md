@@ -1,27 +1,22 @@
-# GithubSearch
+# Github search
+#### This is a webapp which allows you to search for github accounts. 31/04/2019
+#### By **John Kyalo**
+## Description
+This app allows you to key in users into a form which is then processed and the output is given out, which is the user is displayed.
+## Setup/Installation Requirements
+Input the web address of the webapp www.mygithub.netlify.com
+The github user is then displayed.
+## BDD
+| INPUT                             | BEHAVIOUR                   | OUTPUT                                                        |  
+|-----------------------------------|-----------------------------|---------------------------------------------------------------|
+| User inputs a github username     | It processes the information| The username is then displayed.                               |  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Known Bugs
+Currently, there are no known bugs.
+## Technologies Used
+To come up with the application, i used Angular.
+## Support and contact details
+For any queries, contact us on:
+Email: afrikiddo@gmail.com
+### License
+LICENSED BY THE LICENSING AUTHORITY **{John Kyalo}**
