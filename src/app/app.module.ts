@@ -1,13 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
-import {HttpClientModule} from '@angular/common/http';
-import { NgModule } from '@angular/core';
+import{RepositoryService} from './repository.service'
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import{RepositoryService} from './repository.service'
-
+import {HttpClientModule} from '@angular/common/http';
+import { NgModule } from '@angular/core';
 
 @NgModule({
-
  declarations: [
    AppComponent,
  ],
@@ -15,8 +13,8 @@ import{RepositoryService} from './repository.service'
    BrowserModule,
    HttpClientModule,
    FormsModule
-
  ],
+
  providers: [RepositoryService],
  bootstrap: [AppComponent]
 })

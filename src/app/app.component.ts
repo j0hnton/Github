@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
+import { map } from 'rxjs/operators';
 import{Observable} from 'rxjs';
 import{Repository} from './repository';
 import {RepositoryService} from './repository.service';
-import { map } from 'rxjs/operators';
 
 @Component({
  selector: 'app-root',
@@ -10,7 +10,7 @@ import { map } from 'rxjs/operators';
  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
- userName:string="LinusMuema"
+ userName:string="j0hnton"
  Repos:Repository[]=[]
 
  loading:boolean=false;
