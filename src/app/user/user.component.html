@@ -1,0 +1,15 @@
+<div class="container">
+      <div >
+        <p>Enter github name.</p>
+
+          <label for="userName"></label>
+          <input type="text" [(ngModel)]="userName"placeholder="Enter github name">
+      </div>
+      <br><br>
+            <button type="button" (click)="getUsers()" class="btn btn-default">Search</button>
+            <div *ngIf="loading">Loading...</div>
+            <div *ngIf="errorMessage" class="alert alert-warning"><br><br>
+            <strong> <img src="https://media.indiedb.com/images/groups/1/25/24490/8dd2eb_485f6faa2a6646bf8c9468345.gif" height="100" width="100"></strong>
+            </div>
+          <p>Followers: {{user.followers}}</p>
+          <p>Following: {{user.following}}</p>

@@ -1,4 +1,5 @@
 export class Repository {
-  name:string;
-  description:string;
+    name:string;
+    forked: boolean;
+    description: string;
 }

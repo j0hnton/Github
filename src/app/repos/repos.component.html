@@ -1,0 +1,29 @@
+<div class="container">
+  <div >
+    <p>Enter github name.</p>
+   <input type="text"[(ngModel)]="userName" placeholder="Enter github name">
+    </div>
+      <br><br>
+     <button type="button" (click)="getUsers()" class="btn btn-default">Search</button>
+      <div *ngIf="loading">Loading...</div>
+       <div *ngIf="errorMessage">
+        <strong> <img src="https://media.indiedb.com/images/groups/1/25/24490/8dd2eb_485f6faa2a6646bf8c9468345.gif" height="100" width="100"></strong>
+       </div>
+      <div>
+<br><br>
+   <table>
+     <thead>
+      <tr>
+       <th>Name</th>
+        <th>Description</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr *ngFor="let repo of Repos;">
+        <td>{{repo.name}}</td>
+        <td>{{repo.description}}</td>
+       </tr>
+
+  </tbody>
+  </table>
+  </div>
