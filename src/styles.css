@@ -1,0 +1,23 @@
+body{
+  background-image: url('https://wpmisc.com/sites/default/files/wallpaper/animals/66740/small-black-cat-hd-wallpapers-66740-6261753.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+h1{
+  font-family: Cinzel;
+  text-shadow: 0px 0px 5px white;
+  color:black;
+  font-size: 500%;
+
+}
+nav>a{
+  color:white;
+  text-transform:uppercase;
+  text-decoration: none;
+  font-family: Cinzel;
+
+}
+nav>a:hover{
+  color:grey;
+}
