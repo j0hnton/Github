@@ -1,28 +1,23 @@
 import { BrowserModule } from '@angular/platform-browser';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { AlertModule } from 'ngx-bootstrap';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UserInputComponent } from './user-input/user-input.component';
-import { UserinputComponent } from './userinput/userinput.component';
+import { FormsModule } from '@angular/forms';
+import{RepositoryService} from './repository.service'
 
 
 @NgModule({
 
-  declarations: [
-    AppComponent,
-    UserInputComponent,
-    UserinputComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    AlertModule.forRoot(),
-    HttpClientModule
+ declarations: [
+   AppComponent,
+ ],
+ imports: [
+   BrowserModule,
+   HttpClientModule,
+   FormsModule
 
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+ ],
+ providers: [RepositoryService],
+ bootstrap: [AppComponent]
 })
 export class AppModule { }

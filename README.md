@@ -14,7 +14,7 @@ The github user is then displayed.
 ## Known Bugs
 Currently, there are no known bugs.
 ## Technologies Used
-To come up with the application, i used Angular.
+To come up with the application, i used Angular, HTML, CSS, Java Script.
 ## Support and contact details
 For any queries, contact us on:
 Email: afrikiddo@gmail.com
