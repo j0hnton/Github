@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { RepositoryComponent } from './repository.component';
 
 describe('RepositoryComponent', () => {
   let component: RepositoryComponent;
